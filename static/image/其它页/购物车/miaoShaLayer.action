@@ -1,0 +1,254 @@
+<input type="hidden" name="timeRemain" id="timeRemain" value="6737">
+<div class="gray-text">
+    <span class="gray-layout"><span class="gray-text-img"></span>京东秒杀</span>
+</div>
+<div class="seckill-floor">
+    <div id="seckill_title" class="title-wrap ">
+        <a class="seckill-left-link" href="//ms.m.jd.com/seckill/seckillList">
+        <strong id="seckill_now" class="seckill-nth">10点场</strong>
+        <div class="seckill-timer" id="seckill_time">
+            <div class="seckill-time" id="killHour">00</div>
+            <span class="seckill-time-separator">:</span>
+            <div class="seckill-time" id="killMin">02</div>
+            <span class="seckill-time-separator">:</span>
+            <div class="seckill-time" id="killSec">35</div>
+        </div>
+        <span id="seckill_loading"></span>
+    </a>
+        <a class="seckill-more-link" href="//ms.m.jd.com/seckill/seckillList">
+            更多 						   						    <i class="seckill-more-icon"></i>
+        </a>
+    </div>
+    <div class="floor-container  seckill-slider">
+        <ul id="seckillul" class="seckill-new-list">
+                            <li class="seckill-new-item">
+                    <div class="seckill-item-img">
+                        <a href="#" data-wareid="1072595" data-url="//ms.m.jd.com/seckill/seckillList?wareId=1072595" class="seckill-new-link">
+                            <img width="100%" src="//m.360buyimg.com/mobilecms/s220x220_jfs/t3226/59/646304173/335872/1634e098/57bc1512N019d8eb0.jpg!q70.jpg" border="0" class="seckill-photo opa1" style="opacity: 1;">
+                        </a>
+                    </div>
+                    <div class="seckill-item-price">
+                        <span class="seckill-new-price"><em>&yen;</em>19.90</span>
+                        <span class="seckill-original-price"><em>&yen;</em>100.00<i class="through-line"></i></span>
+                    </div>
+                </li>
+                            <li class="seckill-new-item">
+                    <div class="seckill-item-img">
+                        <a href="#" data-wareid="3761626" data-url="//ms.m.jd.com/seckill/seckillList?wareId=3761626" class="seckill-new-link">
+                            <img width="100%" src="//m.360buyimg.com/mobilecms/s220x220_jfs/t4615/298/2578358278/226333/a1e3f31c/58f0843dN2c285062.jpg!q70.jpg" border="0" class="seckill-photo opa1" style="opacity: 1;">
+                        </a>
+                    </div>
+                    <div class="seckill-item-price">
+                        <span class="seckill-new-price"><em>&yen;</em>53.90</span>
+                        <span class="seckill-original-price"><em>&yen;</em>113.00<i class="through-line"></i></span>
+                    </div>
+                </li>
+                            <li class="seckill-new-item">
+                    <div class="seckill-item-img">
+                        <a href="#" data-wareid="3912031" data-url="//ms.m.jd.com/seckill/seckillList?wareId=3912031" class="seckill-new-link">
+                            <img width="100%" src="//m.360buyimg.com/mobilecms/s220x220_jfs/t3157/289/8388097843/100835/31a528c1/58c35825N009c6115.jpg!q70.jpg" border="0" class="seckill-photo opa1" style="opacity: 1;">
+                        </a>
+                    </div>
+                    <div class="seckill-item-price">
+                        <span class="seckill-new-price"><em>&yen;</em>159.00</span>
+                        <span class="seckill-original-price"><em>&yen;</em>269.00<i class="through-line"></i></span>
+                    </div>
+                </li>
+                            <li class="seckill-new-item">
+                    <div class="seckill-item-img">
+                        <a href="#" data-wareid="4846234" data-url="//ms.m.jd.com/seckill/seckillList?wareId=4846234" class="seckill-new-link">
+                            <img width="100%" src="//m.360buyimg.com/mobilecms/s220x220_jfs/t5722/210/1195046468/130982/8641cd19/5923f3a7N27cebfcf.jpg!q70.jpg" border="0" class="seckill-photo opa1" style="opacity: 1;">
+                        </a>
+                    </div>
+                    <div class="seckill-item-price">
+                        <span class="seckill-new-price"><em>&yen;</em>4198.00</span>
+                        <span class="seckill-original-price"><em>&yen;</em>4399.00<i class="through-line"></i></span>
+                    </div>
+                </li>
+                            <li class="seckill-new-item">
+                    <div class="seckill-item-img">
+                        <a href="#" data-wareid="10126503207" data-url="//ms.m.jd.com/seckill/seckillList?wareId=10126503207" class="seckill-new-link">
+                            <img width="100%" src="//m.360buyimg.com/mobilecms/s220x220_jfs/t6055/334/2222609387/220825/9c2266e6/593cfdd3Nd90447f7.jpg!q70.jpg" border="0" class="seckill-photo opa1" style="opacity: 1;">
+                        </a>
+                    </div>
+                    <div class="seckill-item-price">
+                        <span class="seckill-new-price"><em>&yen;</em>78.00</span>
+                        <span class="seckill-original-price"><em>&yen;</em>1280.00<i class="through-line"></i></span>
+                    </div>
+                </li>
+                            <li class="seckill-new-item">
+                    <div class="seckill-item-img">
+                        <a href="#" data-wareid="10286189290" data-url="//ms.m.jd.com/seckill/seckillList?wareId=10286189290" class="seckill-new-link">
+                            <img width="100%" src="//m.360buyimg.com/mobilecms/s220x220_jfs/t5956/29/1332705634/377338/90ef435d/59310a93N0488481c.jpg!q70.jpg" border="0" class="seckill-photo opa1" style="opacity: 1;">
+                        </a>
+                    </div>
+                    <div class="seckill-item-price">
+                        <span class="seckill-new-price"><em>&yen;</em>45.90</span>
+                        <span class="seckill-original-price"><em>&yen;</em>79.00<i class="through-line"></i></span>
+                    </div>
+                </li>
+                            <li class="seckill-new-item">
+                    <div class="seckill-item-img">
+                        <a href="#" data-wareid="10296256983" data-url="//ms.m.jd.com/seckill/seckillList?wareId=10296256983" class="seckill-new-link">
+                            <img width="100%" src="//m.360buyimg.com/mobilecms/s220x220_jfs/t3079/188/547550069/289554/90480700/57ba59f5N45a9fec8.jpg!q70.jpg" border="0" class="seckill-photo opa1" style="opacity: 1;">
+                        </a>
+                    </div>
+                    <div class="seckill-item-price">
+                        <span class="seckill-new-price"><em>&yen;</em>16.50</span>
+                        <span class="seckill-original-price"><em>&yen;</em>108.00<i class="through-line"></i></span>
+                    </div>
+                </li>
+                            <li class="seckill-new-item">
+                    <div class="seckill-item-img">
+                        <a href="#" data-wareid="10492332917" data-url="//ms.m.jd.com/seckill/seckillList?wareId=10492332917" class="seckill-new-link">
+                            <img width="100%" src="//m.360buyimg.com/mobilecms/s220x220_jfs/t4141/277/2799693114/460996/9d7d4dbf/58d638f0Na395c982.jpg!q70.jpg" border="0" class="seckill-photo opa1" style="opacity: 1;">
+                        </a>
+                    </div>
+                    <div class="seckill-item-price">
+                        <span class="seckill-new-price"><em>&yen;</em>68.80</span>
+                        <span class="seckill-original-price"><em>&yen;</em>276.00<i class="through-line"></i></span>
+                    </div>
+                </li>
+                            <li class="seckill-new-item">
+                    <div class="seckill-item-img">
+                        <a href="#" data-wareid="11740946307" data-url="//ms.m.jd.com/seckill/seckillList?wareId=11740946307" class="seckill-new-link">
+                            <img width="100%" src="//m.360buyimg.com/mobilecms/s220x220_jfs/t6055/152/4557416983/397454/a820a244/5965712cNab5c1d0a.jpg!q70.jpg" border="0" class="seckill-photo opa1" style="opacity: 1;">
+                        </a>
+                    </div>
+                    <div class="seckill-item-price">
+                        <span class="seckill-new-price"><em>&yen;</em>29.50</span>
+                        <span class="seckill-original-price"><em>&yen;</em>99.00<i class="through-line"></i></span>
+                    </div>
+                </li>
+                            <li class="seckill-new-item">
+                    <div class="seckill-item-img">
+                        <a href="#" data-wareid="10653218208" data-url="//ms.m.jd.com/seckill/seckillList?wareId=10653218208" class="seckill-new-link">
+                            <img width="100%" src="//m.360buyimg.com/mobilecms/s220x220_jfs/t4693/48/4323860696/274326/548a5559/590c49a0N6d3de747.jpg!q70.jpg" border="0" class="seckill-photo opa1" style="opacity: 1;">
+                        </a>
+                    </div>
+                    <div class="seckill-item-price">
+                        <span class="seckill-new-price"><em>&yen;</em>59.90</span>
+                        <span class="seckill-original-price"><em>&yen;</em>399.00<i class="through-line"></i></span>
+                    </div>
+                </li>
+                            <li class="seckill-new-item">
+                    <div class="seckill-item-img">
+                        <a href="#" data-wareid="10992378284" data-url="//ms.m.jd.com/seckill/seckillList?wareId=10992378284" class="seckill-new-link">
+                            <img width="100%" src="//m.360buyimg.com/mobilecms/s220x220_jfs/t6004/276/4417148627/220803/39ae7907/5962debaNc5c5ab30.jpg!q70.jpg" border="0" class="seckill-photo opa1" style="opacity: 1;">
+                        </a>
+                    </div>
+                    <div class="seckill-item-price">
+                        <span class="seckill-new-price"><em>&yen;</em>338.00</span>
+                        <span class="seckill-original-price"><em>&yen;</em>1390.00<i class="through-line"></i></span>
+                    </div>
+                </li>
+                            <li class="seckill-new-item">
+                    <div class="seckill-item-img">
+                        <a href="#" data-wareid="12275805565" data-url="//ms.m.jd.com/seckill/seckillList?wareId=12275805565" class="seckill-new-link">
+                            <img width="100%" src="//m.360buyimg.com/mobilecms/s220x220_jfs/t5428/248/671916558/158700/2f09cee4/590452c6N555a9472.jpg!q70.jpg" border="0" class="seckill-photo opa1" style="opacity: 1;">
+                        </a>
+                    </div>
+                    <div class="seckill-item-price">
+                        <span class="seckill-new-price"><em>&yen;</em>98.90</span>
+                        <span class="seckill-original-price"><em>&yen;</em>229.00<i class="through-line"></i></span>
+                    </div>
+                </li>
+                            <li class="seckill-new-item">
+                    <div class="seckill-item-img">
+                        <a href="#" data-wareid="12174221987" data-url="//ms.m.jd.com/seckill/seckillList?wareId=12174221987" class="seckill-new-link">
+                            <img width="100%" src="//m.360buyimg.com/mobilecms/s220x220_jfs/t6187/105/2499486196/266593/ce8b2dbe/5963499dNaebf2592.jpg!q70.jpg" border="0" class="seckill-photo opa1" style="opacity: 1;">
+                        </a>
+                    </div>
+                    <div class="seckill-item-price">
+                        <span class="seckill-new-price"><em>&yen;</em>59.00</span>
+                        <span class="seckill-original-price"><em>&yen;</em>188.00<i class="through-line"></i></span>
+                    </div>
+                </li>
+                            <li class="seckill-new-item">
+                    <div class="seckill-item-img">
+                        <a href="#" data-wareid="12456552734" data-url="//ms.m.jd.com/seckill/seckillList?wareId=12456552734" class="seckill-new-link">
+                            <img width="100%" src="//m.360buyimg.com/mobilecms/s220x220_jfs/t5632/345/6361280321/347281/4f3d5a6a/596980efN2dc298c1.jpg!q70.jpg" border="0" class="seckill-photo opa1" style="opacity: 1;">
+                        </a>
+                    </div>
+                    <div class="seckill-item-price">
+                        <span class="seckill-new-price"><em>&yen;</em>119.00</span>
+                        <span class="seckill-original-price"><em>&yen;</em>169.00<i class="through-line"></i></span>
+                    </div>
+                </li>
+                            <li class="seckill-new-item">
+                    <div class="seckill-item-img">
+                        <a href="#" data-wareid="13342795491" data-url="//ms.m.jd.com/seckill/seckillList?wareId=13342795491" class="seckill-new-link">
+                            <img width="100%" src="//m.360buyimg.com/mobilecms/s220x220_jfs/t5599/178/4339034118/468409/92d5c3d/594b1f88Nfcbe4fcc.jpg!q70.jpg" border="0" class="seckill-photo opa1" style="opacity: 1;">
+                        </a>
+                    </div>
+                    <div class="seckill-item-price">
+                        <span class="seckill-new-price"><em>&yen;</em>399.00</span>
+                        <span class="seckill-original-price"><em>&yen;</em>799.00<i class="through-line"></i></span>
+                    </div>
+                </li>
+                            <li class="seckill-new-item">
+                    <div class="seckill-item-img">
+                        <a href="#" data-wareid="12700962111" data-url="//ms.m.jd.com/seckill/seckillList?wareId=12700962111" class="seckill-new-link">
+                            <img width="100%" src="//m.360buyimg.com/mobilecms/s220x220_jfs/t5605/320/5373809850/285464/435d97d1/595eff96N7745ceac.jpg!q70.jpg" border="0" class="seckill-photo opa1" style="opacity: 1;">
+                        </a>
+                    </div>
+                    <div class="seckill-item-price">
+                        <span class="seckill-new-price"><em>&yen;</em>79.00</span>
+                        <span class="seckill-original-price"><em>&yen;</em>199.00<i class="through-line"></i></span>
+                    </div>
+                </li>
+                            <li class="seckill-new-item">
+                    <div class="seckill-item-img">
+                        <a href="#" data-wareid="12880008600" data-url="//ms.m.jd.com/seckill/seckillList?wareId=12880008600" class="seckill-new-link">
+                            <img width="100%" src="//m.360buyimg.com/mobilecms/s220x220_jfs/t6190/209/360247909/358826/5f692e4f/593e4b3cN938c768c.jpg!q70.jpg" border="0" class="seckill-photo opa1" style="opacity: 1;">
+                        </a>
+                    </div>
+                    <div class="seckill-item-price">
+                        <span class="seckill-new-price"><em>&yen;</em>38.00</span>
+                        <span class="seckill-original-price"><em>&yen;</em>68.00<i class="through-line"></i></span>
+                    </div>
+                </li>
+                            <li class="seckill-new-item">
+                    <div class="seckill-item-img">
+                        <a href="#" data-wareid="13264422315" data-url="//ms.m.jd.com/seckill/seckillList?wareId=13264422315" class="seckill-new-link">
+                            <img width="100%" src="//m.360buyimg.com/mobilecms/s220x220_jfs/t5578/303/5796503991/345667/eeeeda6/5965c924Ned9f699c.jpg!q70.jpg" border="0" class="seckill-photo opa1" style="opacity: 1;">
+                        </a>
+                    </div>
+                    <div class="seckill-item-price">
+                        <span class="seckill-new-price"><em>&yen;</em>17.90</span>
+                        <span class="seckill-original-price"><em>&yen;</em>149.00<i class="through-line"></i></span>
+                    </div>
+                </li>
+                            <li class="seckill-new-item">
+                    <div class="seckill-item-img">
+                        <a href="#" data-wareid="13698900177" data-url="//ms.m.jd.com/seckill/seckillList?wareId=13698900177" class="seckill-new-link">
+                            <img width="100%" src="//m.360buyimg.com/mobilecms/s220x220_jfs/t5608/103/5671325136/341425/565783e9/59641c6bNa115d311.jpg!q70.jpg" border="0" class="seckill-photo opa1" style="opacity: 1;">
+                        </a>
+                    </div>
+                    <div class="seckill-item-price">
+                        <span class="seckill-new-price"><em>&yen;</em>199.00</span>
+                        <span class="seckill-original-price"><em>&yen;</em>599.00<i class="through-line"></i></span>
+                    </div>
+                </li>
+                            <li class="seckill-new-item">
+                    <div class="seckill-item-img">
+                        <a href="#" data-wareid="13643843106" data-url="//ms.m.jd.com/seckill/seckillList?wareId=13643843106" class="seckill-new-link">
+                            <img width="100%" src="//m.360buyimg.com/mobilecms/s220x220_jfs/t6436/334/2055261995/236821/aa2f07ba/595cae3fNe9b1747f.jpg!q70.jpg" border="0" class="seckill-photo opa1" style="opacity: 1;">
+                        </a>
+                    </div>
+                    <div class="seckill-item-price">
+                        <span class="seckill-new-price"><em>&yen;</em>880.00</span>
+                        <span class="seckill-original-price"><em>&yen;</em>1250.00<i class="through-line"></i></span>
+                    </div>
+                </li>
+                        <li class="seckill-all-item">
+                <a href="//ms.m.jd.com/seckill/seckillList">
+                    <div class="seckill-all">
+                        <i class="show-all-icon"></i>
+                        <span class="show-all-title">查<br>看<br>更<br>多</span>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>

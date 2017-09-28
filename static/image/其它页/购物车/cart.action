@@ -1,0 +1,575 @@
+ 
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+											     购物车-京东 – 触屏版
+												   	 						- 
+					 					   京东触屏版
+									</title>
+    	<meta name="author" content="m.jd.com">
+        			<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	            <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="Expires" CONTENT="-1">           
+    <meta http-equiv="Cache-Control" CONTENT="no-cache">           
+    <meta http-equiv="Pragma" CONTENT="no-cache">
+
+    <!--badjs 添加-->
+            <script src="https://st.360buyimg.com/common/commonH_B/js/monitoringTool.min.js?v=20170705" type="text/javascript"></script>
+    
+    <!--测速埋点-->
+    <script type="text/javascript">
+        var rTimeArr = [];
+        rTimeArr[0] = {time : new Date()};
+        document.addEventListener("DOMContentLoaded",function(){
+            rTimeArr[1] = {time : new Date() , sTime : "0"};
+        });
+        <!--测速埋点计算页头的css-->
+    </script>
+	  				<link rel="stylesheet" type="text/css" href="//st.360buyimg.com/order/css/base.css?v=20170705" charset="gbk"/>
+			
+	    <link rel="apple-touch-icon-precomposed" href="//st.360buyimg.com/order/images/apple-touch-icon.png?v=20170705"/>
+    <script type="text/javascript">
+        rTimeArr[2] = {time : new Date() , sTime : "0"};
+    </script>
+    <script type="text/javascript">
+        rTimeArr[3] = {sTime : new Date()};
+    </script>
+     
+	         <script type="text/javascript" src="//st.360buyimg.com/order/js/lib/JQcommon.min.js?v=20170705"></script>
+         <script>window.Zepto=window.jQuery;</script>
+           <script type="text/javascript" src="//st.360buyimg.com/order/js/html5/com.spin.min.js?v=20170705"></script>            <script type="text/javascript" src="//st.360buyimg.com/order/html/jigsaw/js/libs/fastclick.js?v=20170705"></script>
+         <script type="text/javascript">
+        rTimeArr[3].time = new Date();
+        rTimeArr[4] = {sTime : new Date()};
+    </script>
+
+            <link rel="stylesheet" type="text/css" href="//st.360buyimg.com/common/commonH_B/css/header.css?v=2.1" charset="gbk"/>
+        <script src="//st.360buyimg.com/common/commonH_B/js/m_common_header_bottom2.1.js" type="text/javascript"></script>
+    
+
+    <script type="text/javascript">
+        rTimeArr[4].time = new Date();
+    </script>
+</head>
+
+<body id="body">
+<a name="top"></a>
+<header>
+              <div id="m_common_header"></div>
+        <div class="new-jd-tab" style="display:none" id="jdkey">
+            <div class="new-tbl-type">
+                <a href="http://m.jd.com/index.html?sid=46432265e4d280075f87b78efd7bde28" class="new-tbl-cell">
+                    <span class="icon">首页</span>
+                    <p style="color:#6e6e6e;">首页</p>
+                </a>
+                <a href="http://m.jd.com/category/all.html?sid=46432265e4d280075f87b78efd7bde28" class="new-tbl-cell">
+                    <span class="icon2">分类搜索</span>
+                    <p style="color:#6e6e6e;">分类搜索</p>
+                </a>
+                <a href="javascript:void(0)" id="html5_cart" class="new-tbl-cell">
+                    <span class="icon3">购物车</span>
+                    <p style="color:#6e6e6e;">购物车</p>
+                </a>
+                <a href="/user/home.action?sid=46432265e4d280075f87b78efd7bde28" class="new-tbl-cell">
+                    <span class="icon4">我的京东</span>
+                    <p style="color:#6e6e6e;">我的京东</p>
+                </a>
+            </div>
+        </div>
+</header>
+
+    
+<link href="//st.360buyimg.com/order/css/cart6.0/idx.cart.css?v=20170705" media="all" rel="stylesheet" type="text/css">
+<link href="//st.360buyimg.com/order/css/cart6.0/main.cart.css?v=20170705" media="all" rel="stylesheet" type="text/css">
+
+<div style="width:100%;z-index:1001;position:absolute;overflow:hidden;display:none" id="background" ></div>
+
+<input type="hidden" id="unLoginSign" value="true"/>
+<div class="login-wrapper" id="notEmptyCartLogin"  style="display:none" >
+    <div class="header-login-info">
+        <div class="header-login-info-left">登录后可同步电脑与手机购物车中的商品</div>
+        <div class="header-login-info-right">
+                                            <a href="javascript:beLoginEmptyCart('https://passport.m.jd.com/user/login.action?sid=46432265e4d280075f87b78efd7bde28&returnurl=https%3A%2F%2Fp.m.jd.com%2Fcart%2Fcart.action')" class="btn-jd-red" >
+                                        登录
+        </a>
+        </div>
+    </div>
+</div>
+
+<div class="shp-cart-empty" id="emptyCartLogin"  style="display:block" >
+    <em class="cart-empty-icn"></em>
+    <span class="empty-msg">登录后可同步电脑与手机购物车</span>
+                    <a href="javascript:beLoginEmptyCart('https://passport.m.jd.com/user/login.action?sid=46432265e4d280075f87b78efd7bde28&returnurl=https%3A%2F%2Fp.m.jd.com%2Fcart%2Fcart.action')" class="to-login-see-btn">
+                登录
+</a>
+</div>
+
+<div report-eventid="MHome_BacktoTop" page_name="index" class="bottom-to-top J_ping" id="indexToTop">
+    <img src="//st.360buyimg.com/order/images/cart/scroll-to-top-icon.png?v=20170705" style="width: 100%;">
+</div>
+<div class="pop" id="giftWares11" style="margin-top:45px;margin-bottom:5%;z-index:1005;position: absolute;display:none" ></div>
+<div id="notEmptyCart"  style="display:none" >
+    
+
+	    <div class="shop-group">
+                    </div>
+
+</div>
+
+   <script type="text/javascript" src="//st.360buyimg.com/order/js/cart6.0/img.recommend.min.js?v=20170705" charset="gbk"></script>
+
+<div id="emptyCart"  style="display:block" >
+    <div class="shp-cart-empty"  style="display: none" >
+        <em class="cart-empty-icn"></em>
+        <span class="empty-msg">购物车空空如也,赶紧逛逛吧~</span>
+    </div>
+    <link href="//st.360buyimg.com/order/css/cart6.0/empty.cart.mix.css?v=20170705" media="all" rel="stylesheet" type="text/css">
+<div class="operating-floor-container">
+</div>
+<input type="hidden" id="isShowActivityLayer" value="true"/>
+<input type="hidden" id="isShowMiaoShaLayer" value="true"/>
+<script type="text/javascript" src="//st.360buyimg.com/order/js/cart6.0/cart.seckill.min.js?v=20170705" charset="gbk"></script>
+<div id="secKillArea" class="floor bdr-bottom ">
+</div>
+    <script>
+        var locations = '/cart/miaoShaLayer.action';
+           // var locations = '/page/m/ncart/miaoShaLayer_html5/seckill';
+            jQuery.get(locations,function(data){
+                if(data!=null && data!=''){
+                    document.getElementById("secKillArea").innerHTML = data;
+                    var timeRemain = $("#timeRemain").val();
+                    krystal.cartSecKill.init({timeRemain:timeRemain});
+                }
+            });
+
+</script>
+<div class="shopping-guess-container" id="emptycartHotRecommend">
+    <div class="shopping-guess   " id="guessID">
+        <div class="gray-text">
+            <span class="gray-layout"><span class="gray-text-img"></span>看看热卖</span>
+        </div>
+        <ul class="similar-ul cf" id="emptyRecommendID">
+
+        </ul>
+        <img src="//st.360buyimg.com/order/images/cart5.0/no-more.png?v=20170705" class="no-more">
+        <span class="txt-nomore-msg">热卖商品实时更新，常回来看看哦~</span>
+    </div>
+</div>
+<input type="hidden" id="isShowActivityLayer" value="true"/>
+<input type="hidden" id="isShowMiaoShaLayer" value="true"/>
+<script>
+        var sid = $("#sid").val();
+        new Recommend({
+            containerID: 'emptyRecommendID',
+            url:'/cart/guessYouLikeUnify.json?emptyCart=true&sid=46432265e4d280075f87b78efd7bde28',
+            maxCount: 60,
+            everyPage:30,
+            pageCount:2,
+            callBack:function(){
+                jQuery.loadImg.lazyLoad({"rangeH":document.documentElement.clientHeight})
+            }
+        });
+        function unifyHeight(thsClass,unifyHei){
+            var thsClassSpan = thsClass.find(".operating-floor-txt span.second");
+            thsClassSpan.each(function(i){
+                if($(this).height() > unifyHei){
+                    unifyHei = $(this).height();
+                }
+            });
+            thsClassSpan.height(unifyHei);
+        }
+        //运营楼层
+        if($("#isShowActivityLayer").val() === 'true'){
+            var locations = '/cart/activityLayer.action';
+            jQuery.get(locations,function(data0){
+                if(data0!=null){
+                    $(".operating-floor-container").append(data0);
+                    if($(".operating-floor-one").length > 0){
+                        $(".operating-floor-only").height($(".operating-floor-only").width() / 3.57);
+                    }
+                    if($(".operating-floor-three").length > 0){
+                        unifyHeight($(".operating-floor-three"),$(".operating-floor-three").find(".operating-floor-txt span").height());
+                    }
+                    if($(".operating-floor-four").length > 0){
+                        unifyHeight($(".operating-floor-four"),$(".operating-floor-four").find(".operating-floor-txt span").height());
+                    }
+                }
+            });
+        }
+</script>
+</div>
+
+
+
+<div id="payment_p"  style="display:none" >
+    <div id="paymentp"></div>
+    <div class="payment-total-bar payment-total-bar-new box-flex-f" id="payment">
+        <div class="shp-chk shp-chk-new  box-flex-c" onclick="checkAllHandler();">
+            <span  class="cart-checkbox"  id="checkIcon-1"></span>
+            <span class="cart-checkbox-text">全选</span>
+        </div>
+        <div class="shp-cart-info shp-cart-info-new  box-flex-c">
+            <strong  id="shpCartTotal" data-fsizeinit="14" class="shp-cart-total">合计:<span class="bottom-bar-price" id="cart_realPrice"> ${cart.PriceShow}</span></strong>
+            <span id="saleOffNew" data-fsizeinit="10" class="sale-off sale-off-new  bottom-total-price">总额:<span class="money-unit-bf" id="cart_oriPrice">$murl.formatePrice($!cart.Price,2)</span>立减:<span class="money-unit-bf" id="cart_rePrice">$murl.formatePrice($!{cart.RePrice},2)</span></span>
+        </div>
+        <a class="btn-right-block btn-right-block-new  box-flex-c" id="submit">去结算<span id="checkedNum">()</span></a>
+    </div>
+</div>
+<div id="mask" style="visibility: hidden">
+    <div id="mask-wraper">
+        <div id="mask-con">
+        </div>
+    </div>
+</div>
+
+<div class="refresh-cart-prompt" style="display:none" onclick="refreshCartHtml()">
+    <span>加车成功!</span>
+    <span><i></i>点击查看新加入商品</span>
+</div>
+
+<input type="hidden" id="newOrderServer" value="" />
+<input type="hidden" id="cartNum" value="" />
+<input type="hidden" id="limitWareNum" value=""/>
+<input type="hidden" id="limitCartNum" value=""/>
+<input type="hidden" id="limitBookNum" value=""/>
+<input type="hidden" id="limitNotBookNum" value=""/>
+<input type="hidden" id="resourceType" value="" />
+<input type="hidden" id="resourceValue" value="" />
+<input type="hidden" id="sid" value="46432265e4d280075f87b78efd7bde28" />
+<input type="hidden" id="submitType" value="" />
+<input type="hidden" id="isOpenFreeFreight" value="true"/>
+<input type="hidden" id="isOpenPopFreight" value="true"/>
+<input type="hidden" id="isShowRecommend" value="true"/>
+<input type="hidden" id="isOpenNewShop" value="true"/>
+<input type="hidden" id="isOpenEditSku" value="true"/>
+<input type="hidden" id="isNewLookSimilar" value="true"/>
+<input type="hidden" id="userGradeMessage" value=""/>
+<input type="hidden" id="otcMedicineUrl" value=""/>
+<input type="hidden" id="normalSkus" value=""/>
+<input type="hidden" id="globalSkus" value=""/>
+<input type="hidden" id="otcSkus" value=""/>
+<input type="hidden" id="selfFreightMsg" value=""/>
+<input type="hidden" id="normalCheckedSkus" value=""/>
+<input type="hidden" id="freshCheckedSkus" value=""/>
+<input type="hidden" id="isFreshFreight" value=""/>
+<input type="hidden" id="FreightnoteEventParam" value=""/>
+<input type="hidden" id="FreightnotePageParam" value=""/>
+<input type="hidden" id="isNewSelfCoupon" value="true"/>
+<input type="hidden" id="returnurl" value="https%3A%2F%2Fp.m.jd.com%2Fcart%2Fcart.action"/>
+<input type="hidden" id="isShowAddFavorite" value="true" />
+<input type="hidden" id="jumpHkURL" value="mp.jd.hk" />
+<input type="hidden" id="couponParams" value="" />
+<input type="hidden" id="imagesUrl" value="//st.360buyimg.com/order" />
+<input type="hidden" id="isNewCartPromotion" value="false" />
+
+
+<script>
+    window.onload=function(){
+        jQuery.loadImg.lazyLoad({"rangeH":document.documentElement.clientHeight});
+        //sid synchronized begin
+        var getSid = function(){
+            return {
+                fromCookie:function(){
+                    var arr,reg=/(^| )sid=([^;]*)(;|$)/;
+                    if(arr=document.cookie.match(reg)) return unescape(arr[2]);else return null;
+                },
+                fromQueryString:function(){
+                    var reg = /(^|&)sid=([^&]*)(&|$)/;
+                    var r = window.location.search.substr(1).match(reg);
+                    if(r!=null)return  unescape(r[2]); return null;
+                }
+            };
+        }();
+        var sid_qs = getSid.fromQueryString();
+        var sid_ck = getSid.fromCookie();
+        if(sid_ck && sid_qs){
+            if(sid_ck != sid_qs){
+                var strSearch = window.location.search;
+                var newStrSearch = strSearch.replace(/(^|\?|&)(sid=)([0-9a-zA-Z]*)(&|$)/,'$1$2'+sid_ck+'$4');
+                window.location.search=newStrSearch;
+            }
+        }
+       //sid synchronized end
+    };
+    var cartUse =  'true';
+    var shopCart;
+
+    JDLAB.script({"src":"//st.360buyimg.com/order/js/cart6.0/cart.min.js?v=20170705","charset":"gbk"});
+    JDLAB.script({"src":"//st.360buyimg.com/order/js/cart6.0/shop_cart.min.js?v=20170705","charset":"gbk"}).wait(function(){
+         backToTop();
+         document.getElementById("background").style.height=document.getElementById("body").scrollHeight+20+"px";
+                      judgeSubmit('','','','');
+             calcShopCheck({"imageDomain":"http://m.360buyimg.com/n4/","umg":0,"resultCode":0,"code":"0"}); 
+                 
+        
+        
+        
+        
+        
+        
+        
+
+
+     
+
+            //判断屏幕旋转
+            //doOnOrientationChange();
+            //空购物车访问埋点
+                    pingClick("true", "MShopcart_EmptyShopCart", "", "", "");
+                //购物车ABTest A（5.0）埋点
+                        pingClick("true", "MShopcart_Atest", "0", "", "");
+        /* 编辑模式js片段 begin */
+        shopCart = new ShopCart();
+        //计算所有店铺title自适应宽度
+        shopCart.computeTitleName(document,'.shop-title-content');
+        window.addEventListener('resize',function(){
+            shopCart.computeTitleName(document,'.shop-title-content');
+        }) ;
+
+        shopCart.singleProductEdit();
+        shopCart.pckProductsEdit();
+        //换购/满赠pop
+        shopCart.popMoneyNotEnough();
+        /* 编辑模式js片段 end */
+        shopCart._setStrAutoWidth('#shpCartTotal',0);
+        shopCart._setStrAutoWidth('#saleOffNew',2);
+
+        //处理页面锚点js
+        shopCart.dealWithHash();
+        /*5.4 新增运费说明*/
+
+        $('.free-tips-icon .info').bind('click',function () {
+            var selfFreightIconEventId;
+            if($('#selfFareType').val() == 2) {
+                selfFreightIconEventId = "MShopcart_FreeShipping";
+            } else if($('#selfFareType').val() == 3) {
+                selfFreightIconEventId = "MShopcart_Overweight";
+            }
+            pingClick("true", selfFreightIconEventId, "", "", "");
+            jQuery.toast({
+                titleName:'运费说明规则',
+                message: $('#selfFreightMsg').val(),
+                maxHeight:96,
+                styleType: 2,
+                autoClose: false,
+                btnNum:1,
+                listContainer:body,
+                btns:{okTxt:'我知道了'}
+            });
+        })
+
+        
+              });
+</script>
+
+<script type="text/javascript" src="//wl.jd.com/unify.min.js"></script>
+<script type="text/javascript">
+                var jap = {
+            jav: 'html5',
+            utmac: 'MO-J2011-1'
+        };
+        
+</script>
+
+      <script type="text/javascript">
+        rTimeArr[8] = {sTime : new Date()};
+      </script>
+    
+        <script type="text/javascript" src="//wl.jd.com/unify.min.js"></script>
+        <script type="text/javascript">
+            try{
+                var pv= new MPing.inputs.PV();   //构造pv 请求
+                var mping = new MPing();        //构造上报实例
+                mping.send(pv);                //上报pv
+            } catch (e){}
+        </script>
+
+    <script type="text/javascript">
+    rTimeArr[8].time = new Date();
+</script>
+
+<script src="//h5.m.jd.com/active/reporttime/reportTime.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+$("#unsupport").hide();
+if(!testLocalStorage()){ //not support html5
+    if(0!=0 && !$clearCart && !$teamId){
+		$("#html5_cart_num").text(0>0>0);
+	}
+}else{
+	updateToolBar('');
+}
+
+$("#html5_cart").click(function(){
+//	syncCart('46432265e4d280075f87b78efd7bde28',true);
+	location.href='/cart/cart.action';
+});
+
+ //banner 关闭点击
+    $('.div_banner_close').click(function(){
+        $('#div_banner_header').unbind('click');
+        jQuery.post('/index/addClientCookieVal.json',function(d){
+              $('#div_banner_header').slideUp(500);
+        });
+    });
+    //banner 下载点击
+    $('.div_banner_download').click(function(){
+         var downloadUrl = $(this).attr('url');
+         jQuery.post('/index/addClientCookieVal.json',function(d){
+               window.location.href=downloadUrl;
+        });
+    });
+    window._clientVersion_ = '';
+    
+	$(document).ready(function(){
+		var _loadScript = function(url, options,cb){
+			var script = document.createElement("script");
+			var def = {
+				type: "text/javascript",
+				charset:"utf-8"
+			}
+			options= options|| {
+			}
+			for(var i in options){
+				def[i] = options[i];
+			}
+			script.src = url;
+			
+			for(var i in def){
+				script.setAttribute(i,def[i]);
+			}
+			script.addEventListener("load",function(){
+				cb && cb();
+			},false)
+			document.getElementsByTagName("head")[0].appendChild(script);
+		}
+				if($(".download-con").length || $("#clientArea").length){
+			_loadScript("//st.360buyimg.com/order/js/2013/installapp.js?v=20170705",{},function(){
+				 $("#clientArea").length && downcheck($("#clientArea"),false);
+			});
+		}
+				
+	})
+
+</script>
+<script>
+    if(location.host.match(/m\.jd\.com/g)){
+        document.domain='m.jd.com';
+    };
+</script>
+
+<!-- 通用头 显示 -->
+<script>
+
+    function loadHB(){
+        var sid = '46432265e4d280075f87b78efd7bde28';
+        var option = {
+            useDefaultImp : false
+        };
+        var mchb = new MCommonHeaderBottom();
+
+        //通用头
+        /*
+            参数说明：
+            名称						必填项(Y,N)			描述
+            hrederId			|		Y		|	显示divId
+            title				|		N		|	显示头信息
+            sid					|		N		|	m版sid串  (可取'')
+            isShowShortCut 		| 		N		|	初始化时候是否显示快捷键，不显示
+            selectedShortCut	|		N		|	初始化时候显示选择第几个快捷键 (1:首页, 2:分类搜索, 3:购物车, 4:我的京东) 默认不选中
+            onClickGoback		|		N		|	点击返回触发事件
+            onClickJdkey		|		N		|	点击显示隐藏快捷键触发事件
+            onClickIndex		|		N		|	点击首页触发事件
+            onClickSearch		|		N		|	点击搜索触发事件
+            onClickCart			|		N		|	点击购物车触发事件
+            onClickHome			|		N		|	点击home触发事件
+
+        var headerArg = {hrederId : 'm_common_header', sid : sid, isShowShortCut : false, selectedShortCut : '3',
+            onClickGoback:function(){alert('onClickGoback')},
+            onClickJdkey:function(){alert('onClickJdkey')},
+            onClickIndex:function(){alert('onClickIndex')},
+            onClickSearch:function(){alert('onClickCart')},
+            onClickCart:function(){alert('onClickCart')},
+            onClickHome:function(){alert('onClickHome')},};
+        */
+
+        var title = "购物车";
+        var headerArg = {hrederId : 'm_common_header', title:title, sid : sid, isShowShortCut : false, selectedShortCut : getShortCutValue()}
+        mchb.header(headerArg);
+
+        function getShortCutValue(){
+            /**
+             * 只有在购物车页面时，才显示到导航中的“购物车”为选中状态。
+             */
+            return window.location.pathname.indexOf("/cart/cart.action")>=0 ? '3':'';
+        };
+
+        //通用尾
+        /*
+            参数说明：
+            名称						必填项(Y,N)			描述
+            bottomId			|		Y		|	显示divId
+            sid					|		N		|	m版sid串  (可取'')
+            pin			 		| 		Y		|	用户pin (登录pin不为空，未登录为'')
+            toPcSkipurl			|		Y		|	跳转pc版url
+            footerPlatforms		|		Y		|	配置跳转快捷键参数插件
+                                                    默认提供4种快捷配置
+                                                    enum0 ：none 0个
+                                                    enum2 : 客户端 1个
+                                                    enum3 : 标准版 触屏版 客户端 3 个
+                                                    enum4 : 标准版 触屏版 电脑版 客户端 4个
+                                                    自定义参数说明
+                                                    id:唯一标识, name:名称(standard 标准版,touchscreen 触屏版 ,pc
+                                                    pc版,apps app版) href:跳转的url ,onClickX 点击事件
+            downloadAppPlugIn	|		N		|	配置跳转app参数 (包含：parameters,otherApp参数)
+                                                    具体详见 http://st.360buyimg.com/m/js/2014/module/plugIn/downloadAppPlugIn.src.js
+        */
+        var pin = '';
+        var toPcSkipurl = 'http://www.jd.com/#m'; //跳转电脑版url
+        var footerPlatforms4 = mchb.platformEnum(toPcSkipurl,sid).enum3_1;//标准版 触屏版 电脑版 客户端 4个
+        var bottomArg = {bottomId : 'm_common_bottom', sid : sid, pin : pin ,footerPlatforms : footerPlatforms4};
+        mchb.bottom(bottomArg);
+
+//        var footerPlatforms5 = [ {id:1, name:'standard', href:'http://wap.jd.com/index.html?v=w&sid=' + sid, onClickX:function(){alert('自定义事件,我要去标准版')}},
+//            {id:2, name:'touchscreen', href:'', onClickX:function(){alert('自定义事件,我是触屏版');}},
+//            {id:3, name:'pc', href:'http://www.jd.com/#m', onClickX:function(){alert('goToPc');}},
+//            {id:4, name:'apps', href:'', onClickX:function(){alert('自定义点击事件,并默认执行下载app事件');}}
+//        ];//自定义
+//        var bottomArg = {bottomId : 'm_common_bottom5', sid : sid, pin : pin ,footerPlatforms : footerPlatforms5};
+//        mchb.bottom(bottomArg);
+
+        //通用提示下载京东客户端
+        /*
+            参数说明：
+            名称						必填项(Y,N)			描述
+            tipId				|		Y		|	显示divId
+            sid					|		N		|	m版sid串  (可取'')
+            isfloat 			| 		N		|	是否是悬浮窗 (true:悬浮,false:不悬浮)
+            isAlwayShow			| 		N		|	是否显示,true:并不受到 24小时 点击 关闭X 的影响。 默认：false
+            copyWrite			|		N		|	文案 富文本 支持，不建议太长可能会导致样式变形。eg:客户端首单返5元<br>更多特价商品等你抢
+            location			|		N		|	停靠位置,(取值范围：'bottom:0px;':靠近底端  ，'top:0px;':靠近顶端)
+            onClickTrynow		|		N		|	点击下载触发事件
+            onClickTipX			|		N		|	点击关闭X触发事件
+            downloadAppPlugIn	|		N		|	配置跳转app参数 (包含：parameters,otherApp参数)
+                                                    具体详见 http://st.360buyimg.com/m/js/2014/module/plugIn/downloadAppPlugIn.src.js
+        */
+        var tipArg = {tipId : 'm_common_tip', sid : sid, isfloat: true, isAlwayShow : true,
+            copyWrite:'自己自定义的文案<br>返卷100哦！',
+            onClickTrynow: function(){},
+            onClickTipX: function(){alert("自定义点击事件,并默认执行关闭app事件")}};
+        mchb.jdTip(tipArg);
+
+        var tipArg2 = {tipId : 'm_common_tip_no_float', sid : sid, isfloat: false, isAlwayShow : true,
+            onClickTrynow: function(){},
+            onClickTipX: function(){alert("自定义点击事件,并默认执行关闭app事件")}};
+
+        mchb.jdTip(tipArg2);
+
+    }
+
+    loadHB();
+</script>
+</body>
+</html>

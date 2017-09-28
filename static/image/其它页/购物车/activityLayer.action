@@ -1,0 +1,42 @@
+<style>
+    .img_default_back{overflow: hidden;width: 4.75rem;height: 4.75rem;background: url(//st.360buyimg.com/order/images/cart5.0/defaultGoodsImage.png?t=20170705) 0 0 no-repeat;background-size: 100%;display: inline-block;}
+    .img_default_back img{background:#fff;}
+    .operating-floor-two .img_default_back{width: 4rem;height: 4rem;}
+</style>
+                                        <div class="operating-floor-two">
+            
+                            <div class="operating-floor-box" style="">
+                    <a href="javascript:operatingUrl('https://coupon.m.jd.com/center/getCouponCenter',true,1)">
+                        <div class="operating-floor-txt">
+                            <span style="color:#f23030;">每日神券</span>
+                            <span class="second" style="color:#999999">限量发放,快去抢</span>
+                        </div>
+                        <div class="operating-floor-img">
+                                <div class="img_default_back">
+                                    <img src="//st.360buyimg.com/order/images/cart5.0/act.coupon.png?v=20170413" onerror="this.classList.add('err-img-hidden')"/>
+                                </div>
+                        </div>
+                    </a>
+                </div>
+                            <div class="operating-floor-box" style="">
+                    <a href="javascript:operatingUrl('https://home.m.jd.com/myJd/myFocus/newFocusWare.action',true,2)">
+                        <div class="operating-floor-txt">
+                            <span style="color:#f23030">我的关注</span>
+                            <span class="second" style="color:#999999">你关心的都在这里</span>
+                        </div>
+                        <div class="operating-floor-img">
+                                <div class="img_default_back">
+                                    <img src="//st.360buyimg.com/order/images/cart5.0/act.attention.png" onerror="this.classList.add('err-img-hidden')"/>
+                                </div>
+                        </div>
+                    </a>
+                </div>
+                        </div>
+                                                <div class="operating-floor-one" style="">
+                    <a href="javascript:operatingUrl('https://h5.m.jd.com/dev/2t4mH6MsXjUCHHvY5EAA63tS6XLq/index.html',true,3)">
+                                                    <img src="//st.360buyimg.com/order/images/cart5.0/act.newUserGiftPack.new.png" class="operating-floor-only" onerror="this.classList.add('err-img-hidden')"/>
+                                                <span class="operating-floor-posit"></span>
+                    </a>
+
+                </div>
+                        

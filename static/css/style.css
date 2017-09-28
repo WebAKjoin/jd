@@ -1,0 +1,262 @@
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+	box-sizing:content-box
+}
+html,body,#app{
+	width:100%;
+	height:100%;
+}
+.box{
+	width:100%;
+	height:100%;
+	display:flex;
+	flex-direction:column;
+}
+.head{
+	width:100%;
+	height:.9rem;
+	line-height:.9rem;
+	display:flex;
+	z-index:9999;
+	color:#fff;
+}
+.head .saoa_sao{
+	margin-left:.1rem;
+}
+.head .saoa_sao i{
+	width:7px;
+	height:7px;
+	display:block;
+}
+.head .saoa_sao span{
+	font-size:.2rem;
+}
+.oinput{
+	width:6.5rem;
+	height:.58rem;
+	background:#fff;
+	border-radius:.4rem;
+	margin-top:.1rem;
+	position:relative;
+}
+.input i{
+	position:absolute;
+	left:.1rem;
+	top:.1rem;
+}
+.oinput input{
+	width:80%;
+	height:60%;
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	margin:auto;
+	border-width:0;
+	outline: none;
+	/*flex:1;*/
+}
+.message{
+	line-height:.9rem;
+	display:block;
+	font-size:.24rem;
+	margin-left:.2rem;
+}
+
+section{
+	width:100%;
+	flex:1;
+}
+.banner{
+	height:1.87rem;
+}
+.banner img{
+	width:100%;
+	height:100%;
+}
+section{
+	flex:1;
+}
+/*.foot{
+	width:100%;
+	height:1rem;
+	background:#fff;
+	position:fixed;
+	bottom:0;
+	left:0;
+	font-size:16px;
+}
+.foot ul{
+	width:100%;
+	height:100%;
+	display:flex;
+}
+.foot ul li{
+	flex:1;
+	text-align:center;
+	margin:auto;
+}
+.foot ul li i{
+	display:block;
+}
+.foot ul li span{
+	text-align:center;
+	font-size:.24rem;
+	display:block;
+}*/
+.aish{
+	width:100%;
+	height:.56rem;
+	background:url("../../static/image/img/hr/floor_tit.png");
+	background-size:100%;
+}
+.aish img{
+	width:1.2rem;
+	height:.56rem;
+	display:block;
+	margin:auto;
+}
+.fenlei{
+	width:100%;
+	height:4.44rem;
+	font-size:.32rem;
+}
+.fenlei dl{
+	width:50%;
+	height:50%;
+	float:left;
+	display:flex;
+}
+.fenlei dl dd{
+	padding-top:.2rem;
+	padding-left:.2rem;
+}
+.fenlei dl dd h3{
+	font-size:.3rem;
+}
+.fenlei dl dd p{
+	font-size:.24rem;
+	color:#686868;
+}
+.fenlei dt img{
+	width:1.6rem;
+	height:1.6rem;
+	display:block;
+	margin-top:.6rem;
+}
+.list{
+	margin-top:0.1rem;
+	height:3.15rem;
+}
+.list li{
+	width:20%;
+	height:50%;
+	float:left;
+}
+.list li img{
+	width:50%;
+	height:50%;
+	margin:0 auto;
+	display:block;
+}
+.list li span{
+	display:block;
+	font-size:16px;
+	text-align:center;
+}
+.kuaibao{
+	width:90%;
+	height:.6rem;
+	margin:0 auto;
+	line-height:.6rem;
+	background:#fff;
+	border-radius:.3rem;
+	font-size:16px;
+	display:flex;
+}
+.kuaibao img{
+	height:.4rem;
+}
+.kuaibao span{
+	
+}
+.kuaibao ul{
+	width:60%;
+	overflow:hidden;
+	margin-top:-0.1rem;
+}
+.kuaibao i{
+	margin-left:.1rem;
+	margin-top:-0.1rem;
+	font-weight:normal;
+}
+.ms{
+	height:3rem;
+	border-bottom:1px solid #ccc;
+}
+.ms h3{
+	width:100%;
+	height:.7rem;
+	line-height:.7rem;
+	font-size:16px;
+	display:flex;
+}
+.ms h3 img{
+	width:1.4rem;
+	height:100%;
+}
+.ms h3 .zheng{
+	font-size:14px;
+	font-weight:normal;
+	margin-left:.1rem;
+}
+.ms h3 .dj{
+	
+}
+.ms h3 p{
+	font-weight:normal;
+	color:#ff212c;
+	
+} 
+.ms h3 p img{
+	width:.4rem;
+	height:.4rem;
+}
+#dj{
+	margin-left:.1rem;
+	margin-right:.5rem;
+}
+.oul{
+	display:flex;
+	height:2.3rem;
+}
+.oul li{
+	width:25%;
+	height:100%;
+}
+.oul li img{
+	width:1.5rem;
+	height:1.5rem;
+	display:block;
+	margin:auto;
+}
+.oul li span{
+	font-size:.24rem;
+	display:block;
+	text-align:center;
+}
+.logo{
+	height:3.34rem;
+	margin-top:-0.9rem;
+}
+.logo .logo,.swiper-content img{
+	width:100%;
+	height:100%;
+}
+.swiper-content{
+	width:100%;
+	height:2.96rem;
+}
